@@ -2,7 +2,7 @@
 
 const keywordArr = [];
 const animalCollection = [];
-const  showLessImages = [];
+const showLessImages = [];
 
 
 function Animal (obj) {

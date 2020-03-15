@@ -63,7 +63,7 @@ $.ajax('data/page-2.json' , {METHOD:'GET' , DATATYPE:'JSON'})
   .then(data => {
     data.forEach(animal => {
       new Animal(animal).render();
-    }); 
+    });
     dropMenu();
   });
 
